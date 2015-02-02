@@ -1,0 +1,12 @@
+#!/bin/sh
+
+
+STYLE="compact"
+
+if [ $1 ] 
+then
+	STYLE=$1
+fi
+
+cd $2
+bundle exec compass compile --force --output-style $STYLE --environment production --css-dir web-app/css --sass-dir src/sass --images-dir web-app/images/

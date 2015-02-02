@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sh ./scripts/compass-compile expanded
+
+bundle exec compass watch --css-dir web-app/css/ --sass-dir src/sass --images-dir web-app/images/
