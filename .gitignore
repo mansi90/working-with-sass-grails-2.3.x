@@ -14,4 +14,19 @@ web-app/WEB-INF/tld/fmt.tld
 cobertura.ser
 *.log
 logs/
+
+# rvm
+.ruby-version
+.ruby-gemset
+
+
+# sass\compiled css
 web-app/css/*
+.sass-cache
+
+# random stuff that should be ignored
+out.*
+**Gemfile.lock
+vendor/**
+**.bundle/
+
