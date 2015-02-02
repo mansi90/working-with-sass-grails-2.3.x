@@ -1,0 +1,16 @@
+*.ids
+*.iml
+.idea/
+out/
+.classpath
+.project
+.settings/
+target/
+classes/
+web-app/WEB-INF/tld/c.tld
+web-app/WEB-INF/tld/fmt.tler
+stacktrace.log
+web-app/WEB-INF/tld/fmt.tld
+cobertura.ser
+*.log
+logs/
